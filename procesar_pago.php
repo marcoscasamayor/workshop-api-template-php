@@ -3,6 +3,8 @@
 
     MercadoPago\SDK::setAccessToken("TEST-8698162945950227-060506-ae0c2b04a50b5ff6b1dcdb7f8039f10b-53340008");
 
+    echo("vamos 1");
+
     $payment = new MercadoPago\Payment();
     $payment->transaction_amount = (float)$_POST['transactionAmount'];
     $payment->token = $_POST['token'];
