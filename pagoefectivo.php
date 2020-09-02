@@ -20,4 +20,5 @@
         'codigo' => 101
     );
     echo json_encode($response);
+    echo json_encode($payment->transaction_details);
 ?>
