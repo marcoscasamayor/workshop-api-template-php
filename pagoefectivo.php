@@ -3,9 +3,10 @@
 
     MercadoPago\SDK::setAccessToken("TEST-8698162945950227-060506-ae0c2b04a50b5ff6b1dcdb7f8039f10b-53340008");
 
+    $payment = new MercadoPago\Payment();
+
     echo("objeto creado");
 
-    $payment = new MercadoPago\Payment();
     $payment->transaction_amount = 100;
     $payment->description = "Título del producto";
     $payment->payment_method_id = "rapipago";
@@ -14,6 +15,8 @@
     );
 
     $payment->save();
-    
+
+
+    echo($payment->transaction_amount);
     echo($payment);
 ?>
