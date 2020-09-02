@@ -53,7 +53,7 @@
                                 <div class="col-lg-12">
 									<hr class="p-0 m-0">
 									
-									<button type="button" onclick="window.open('pagoefectivo.php');">Pagar en efectivo</button>
+									<button type="button" onclick="window.open('pagoefectivo.php?monto=101');">Pagar en efectivo</button>
 
 									<hr class="p-0 m-0">
 
