@@ -8,7 +8,7 @@
     $payment->description = "celular del producto";
     $payment->payment_method_id = "rapipago";
     $payment->payer = array(
-      "email" => "test_user_19653727@testuser.com"
+      "email" => "guadacasamayor@gmail.com"
     );
 
     $payment->save();
