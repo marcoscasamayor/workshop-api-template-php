@@ -160,7 +160,7 @@ function setCardTokenAndPay(status, response) {
 								<h3>Detalles de la tarjeta</h3>
 									<div>
 									<div>
-										<label for="cardholderName">Titular de la tarjeta</label>
+										<label for="cardholderName">Titular (??)</label>
 										<input id="cardholderName" data-checkout="cardholderName" type="text">
 									</div>
 									<div>
