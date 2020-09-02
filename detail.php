@@ -20,8 +20,6 @@
 
 		window.Mercadopago.getIdentificationTypes();
 
-		document.getElementById('cardNumber').addEventListener('change', guessPaymentMethod);
-
 		function guessPaymentMethod(event) {
 		let cardnumber = document.getElementById("cardNumber").value;
 		if (cardnumber.length >= 6) {
@@ -227,6 +225,11 @@ function setCardTokenAndPay(status, response) {
                     <h6 style="color: white; display:inline"> | Workshop Resource</h6>
                 </div>
             </footer>
-        </div>
+		</div>
+		
+		<script>
+		document.getElementById('cardNumber').addEventListener('change', guessPaymentMethod);
+		
+		</script>
     </body>
 </html>
