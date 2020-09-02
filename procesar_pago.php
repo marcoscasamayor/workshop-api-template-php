@@ -24,7 +24,8 @@
     $response = array(
         'status' => $payment->status,
         'status_detail' => $payment->status_detail,
-        'id' => $payment->id
+        'id' => $payment->id,
+        'codigo' => 10
     );
     echo json_encode($response);
 

@@ -51,7 +51,12 @@
                                     <input id="product_quantity" type="number" class="form-control text-center w-100" value="1">
                                 </div>
                                 <div class="col-lg-12">
-                                    <hr class="p-0 m-0">
+									<hr class="p-0 m-0">
+									
+									<button type="button" onclick="window.open('pagoefectivo.php');">Pagar en efectivo</button>
+
+									<hr class="p-0 m-0">
+
                                     <br>
                                     <!-- ADD PAYMENT FORM HERE -->
 
